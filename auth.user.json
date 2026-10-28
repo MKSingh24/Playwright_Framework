@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "OCSESSID",
+      "value": "4f26f0ab61d1b126685ec82a29",
+      "domain": "opencart.nltechtrainings.com",
+      "path": "/",
+      "expires": 1793068379.57745,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "currency",
+      "value": "USD",
+      "domain": "opencart.nltechtrainings.com",
+      "path": "/",
+      "expires": 1795573978.244078,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
