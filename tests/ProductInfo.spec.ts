@@ -27,7 +27,7 @@ test("verify product Information Test", async ({homePage,searchResultPage,produc
 
     expect.soft(completeInfo.get("Brand")).toBe('Apple')
     expect.soft(completeInfo.get('Product Code')).toBe('Product 18');
-    expect.soft(completeInfo.get('Product_Price')).toBe('$2,000')
+    expect.soft(completeInfo.get('Product_Price')).toBe('$2,000.00')
 
 })
 
