@@ -27,7 +27,7 @@ test("create new user", async ({apiHelper})=>{
 })
 
 let user_id=8685208;
-let userData1={ "name": "Radha Singh", "email": `mk1792898640087@example.com`, "gender": "female", "status": "active" }
+let userData1={ "name": "mohan Singh", "email": `mk1792898640087@example.com`, "gender": "female", "status": "active" }
 
 test("Update user Details", async ({apiHelper})=>{
     let response=await apiHelper.putRequest(`/public/v2/users/${user_id}`,userData1,Auth_Token);
