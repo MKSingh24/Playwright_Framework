@@ -46,7 +46,7 @@ export class APIHelper{
         let response=await this.request.delete(`${this.baseUrl}${endPoint}`,{headers:requestheaders})
         return{
             statusCode:response.status(),
-            responseBpdy:response.statusText()
+            statusText:response.statusText()
         }
     }
 }
