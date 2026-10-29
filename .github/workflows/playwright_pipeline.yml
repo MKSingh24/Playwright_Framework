@@ -245,7 +245,7 @@ jobs:
       - name: Checkout QA Automation Repository
         uses: actions/checkout@v4
         with:
-          repository: testautomation093/PlaywrightAutomationFWAugust2026WeekDays
+          repository: MKSingh24/Playwright_Framework
 
       # ---------------------------------------------------------
       # Setup Node.js
