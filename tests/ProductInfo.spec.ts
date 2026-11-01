@@ -31,7 +31,7 @@ test("verify product Information Test", async ({homePage,searchResultPage,produc
 
 })
 
-test("Verify Add To cart functionality and success msg",async ({homePage,searchResultPage,productInfoPage})=>{
+test("Verify Add To cart functionality and success msg @sanity",async ({homePage,searchResultPage,productInfoPage})=>{
     let productName="MacBook Pro"
     await homePage.doSearch("macbook");
     await searchResultPage.selectAndClickOnProduct(productName);

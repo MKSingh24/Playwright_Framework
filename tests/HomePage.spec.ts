@@ -25,7 +25,7 @@ test("Home Page Title test", async ({homePage})=>{
     expect(homePageTitle).toBe("My Account");
 })
 
-test("Home Page logout Link test", async ({homePage})=>{
+test("Home Page logout Link test @sanity", async ({homePage})=>{
     let isLogoutLink=await homePage.isLogoutLinkAvalible()
     expect(isLogoutLink).toBe(true);
 })
