@@ -839,6 +839,12 @@ jobs:
                           </a>
                       </td>
 
+                       <td>
+                          <a href="runs/${{ github.run_number }}/qa/reporting-labs/index.html">
+                          View Reporting-Lab Report
+                          </a>
+                      </td>
+
                   </tr>
 
                   <tr>
@@ -854,6 +860,12 @@ jobs:
                       <td>
                           <a href="runs/${{ github.run_number }}/stage/allure/index.html">
                           View Allure Report
+                          </a>
+                      </td>
+
+                       <td>
+                          <a href="runs/${{ github.run_number }}/stage/reporting-labs/index.html">
+                          View Reporting-Lab Report
                           </a>
                       </td>
 
