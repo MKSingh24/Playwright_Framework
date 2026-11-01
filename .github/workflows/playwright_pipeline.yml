@@ -665,6 +665,12 @@ jobs:
           name: qa-allure-report
           path: downloaded-reports/qa/allure
 
+      - name: Download QA Reporting Labs Report
+        uses: actions/download-artifact@v4
+        with:
+          name: qa-reporting-labs-report
+          path: downloaded-reports/qa/reporting-labs
+
       - name: Download STAGE HTML Report
         uses: actions/download-artifact@v4
         with:
@@ -676,6 +682,12 @@ jobs:
         with:
           name: stage-allure-report
           path: downloaded-reports/stage/allure
+
+      - name: Download STAGE Reporting Labs Report
+        uses: actions/download-artifact@v4
+        with:
+          name: stage-reporting-labs-report
+          path: downloaded-reports/stage/reporting-labs
 
       - name: Download Unit Test Reports
         uses: actions/download-artifact@v4
