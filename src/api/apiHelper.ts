@@ -13,16 +13,19 @@ export class APIHelper{
     }
 
     async getRequest(endPoint:string,requestheaders?:Record<string,string>){
-        try{
-        let response=await this.request.get(`${this.baseUrl}${endPoint}`,{headers:requestheaders})
+
+         const url = `${this.baseUrl}${endPoint}`;
+
+         console.log("Base URL:", this.baseUrl);
+         console.log("End Point:", endPoint);
+         console.log("Final URL:", url);
+        
+        let response=await this.request.get(url,{headers:requestheaders})
         return{
             statusCode:response.status(),
             responseBody:await response.json()
-        }
-        }catch(error){
-            console.error(`GET request failed for ${endPoint}:`, error);
-            throw error;
-        }
+       }
+       
         
     }
 
