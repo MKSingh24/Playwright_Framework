@@ -819,6 +819,7 @@ jobs:
                       <th>Environment</th>
                       <th>HTML Report</th>
                       <th>Allure Report</th>
+                      <th>Reporting-Lab Report</th>
 
                   </tr>
 
