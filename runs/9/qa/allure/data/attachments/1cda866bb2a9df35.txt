@@ -1,0 +1,9 @@
+{
+  id: 8694483,
+  name: 'Mk Singh',
+  email: 'mk1793513513986@example.com',
+  gender: 'male',
+  status: 'active'
+}
+response code is: 201
+response message is: Created

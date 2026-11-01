@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4949","Verify Add To cart functionality and success msg @sanity","chromium","2026-11-01","passed","2026-11-01","","ProductInfo.spec.ts","",""
+"","3251","Login Test @sanity","chromium","2026-11-01","passed","2026-11-01","","LoginPage.spec.ts","",""
+"","3712","Verify Search Header functionality Test @sanity","chromium","2026-11-01","passed","2026-11-01","","SearchPage.spec.ts","",""
+"","3458","Home Page logout Link test @sanity","chromium","2026-11-01","passed","2026-11-01","","HomePage.spec.ts","",""
