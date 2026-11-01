@@ -31,7 +31,7 @@ export default defineConfig({
     ['list'], // Optional: Keeps clean terminal output while running
     ['html',{outputFolder:"reports/html-report",open:'never'}],
     ['allure-playwright', { outputFolder: 'allure-results',suiteTitle:true, }],
-    // ['reporting-labs', reportingLabs],
+    ['reporting-labs', reportingLabs],
   ],
 
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */

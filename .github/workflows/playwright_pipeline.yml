@@ -328,6 +328,15 @@ jobs:
           allure generate allure-results --clean -o allure-report
 
       # ---------------------------------------------------------
+      # Generate Reporting-Lab Report
+      # ---------------------------------------------------------
+
+      - name: Generate Reporting Labs Report
+        if: always()
+        run: |
+          npx reporting-labs generate
+
+      # ---------------------------------------------------------
       # Upload HTML Report
       # ---------------------------------------------------------
 
@@ -349,6 +358,18 @@ jobs:
         with:
           name: qa-allure-report
           path: allure-report/
+          retention-days: 30
+
+      # ---------------------------------------------------------
+      # Upload Reporting-Lab Report
+      # ---------------------------------------------------------
+
+      - name: Upload Reporting Labs Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage-reporting-labs-report
+          path: reporting-labs/
           retention-days: 30
 
 # ═══════════════════════════════════════════════════════════════
@@ -506,6 +527,15 @@ jobs:
           allure generate allure-results --clean -o allure-report
 
       # ---------------------------------------------------------
+      # Generate Reporting-Lab Report
+      # ---------------------------------------------------------
+
+      - name: Generate Reporting Labs Report
+        if: always()
+        run: |
+          npx reporting-labs generate
+
+      # ---------------------------------------------------------
       # Upload HTML Report
       # ---------------------------------------------------------
 
@@ -527,6 +557,18 @@ jobs:
         with:
           name: stage-allure-report
           path: allure-report/
+          retention-days: 30
+
+      # ---------------------------------------------------------
+      # Upload Reporting-Lab Report
+      # ---------------------------------------------------------
+
+      - name: Upload Reporting Labs Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: stage-reporting-labs-report
+          path: reporting-labs/
           retention-days: 30
 
 # ═══════════════════════════════════════════════════════════════
