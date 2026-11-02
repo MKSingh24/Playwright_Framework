@@ -38,6 +38,7 @@ pipeline {
                 'stage',
                 'dev',
                 'uat'
+                'prod'
             ],
             description: 'Select Target Environment'
         )
