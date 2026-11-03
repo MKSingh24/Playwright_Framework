@@ -1,0 +1,76 @@
+Base URL: https://gorest.co.in
+End Point: /public/v2/users
+Final URL: https://gorest.co.in/public/v2/users
+[
+  {
+    id: 8696760,
+    name: 'Mk Singh',
+    email: 'mk1793669719355@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8696251,
+    name: 'Mk Singh',
+    email: 'mk1793626443931@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8695851,
+    name: 'Mk Singh',
+    email: 'mk1793625720827@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8695845,
+    name: 'Mk Singh',
+    email: 'mk1793625293448@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8695137,
+    name: 'Gopal Bhat',
+    email: 'gopal_bhat_48380@mehta.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8695136,
+    name: 'Rohan Desai',
+    email: 'rohan_desai_92932@pillai.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8695135,
+    name: 'Radha Rao',
+    email: 'radha_rao_76916@kumar.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8695134,
+    name: 'Tara Rao',
+    email: 'tara_rao_45535@verma.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8695133,
+    name: 'Sai Bose',
+    email: 'sai_bose_86720@bose.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8695132,
+    name: 'Kabir Menon',
+    email: 'kabir_menon_16016@nair.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
+200
