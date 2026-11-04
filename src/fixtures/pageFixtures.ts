@@ -3,6 +3,7 @@ import {LoginPage} from '../pages/LoginPage.js'
 import { HomePage } from '../pages/HomePage.js';
 import { SearchPage } from '../pages/SearchResultPage.js';
 import {ProductInfoPage} from '../pages/ProductInfoPage.js'
+import {RegistrationPage} from '../pages/RegistrationPage.js'
 
 //Define type
 
@@ -11,6 +12,7 @@ type PageFixtures={
     homePage:HomePage;
     searchResultPage:SearchPage;
     productInfoPage:ProductInfoPage;
+    registerPage:RegistrationPage;
 }
 
 
@@ -31,7 +33,13 @@ export let test=base.extend<PageFixtures>({
 
     productInfoPage:async ({page},use)=>{
         await use(new ProductInfoPage(page))
+    },
+
+    registerPage:async ({page},use)=>{
+        await use(new RegistrationPage(page))
     }
+
+
 
 })
 
