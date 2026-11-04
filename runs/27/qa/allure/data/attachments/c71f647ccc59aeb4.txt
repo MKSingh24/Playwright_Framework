@@ -1,0 +1,74 @@
+[
+  {
+    id: 8699359,
+    name: 'Mk Singh',
+    email: 'mk1793757927830@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8698940,
+    name: 'Kabir Das',
+    email: 'kabir_das_91719@joshi.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8698939,
+    name: 'Diya Nair',
+    email: 'diya_nair_8265@rao.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8698938,
+    name: 'Priya Patel',
+    email: 'priya_patel_63871@mehta.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8698937,
+    name: 'Atharv Patel',
+    email: 'atharv_patel_92747@iyer.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8698936,
+    name: 'Anjali Pillai',
+    email: 'anjali_pillai_58063@bhat.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8698935,
+    name: 'Saanvi Mishra',
+    email: 'saanvi_mishra_4794@mehta.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8698934,
+    name: 'Vivaan Reddy',
+    email: 'vivaan_reddy_47557@menon.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8698933,
+    name: 'Kabir Singh',
+    email: 'kabir_singh_66543@sharma.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8698932,
+    name: 'Vivaan Rao',
+    email: 'vivaan_rao_45862@iyer.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
+response code is: 200
+response message is: OK
