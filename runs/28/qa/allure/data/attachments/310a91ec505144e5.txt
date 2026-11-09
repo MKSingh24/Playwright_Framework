@@ -1,0 +1,76 @@
+Base URL: https://gorest.co.in
+End Point: /public/v2/users
+Final URL: https://gorest.co.in/public/v2/users
+[
+  {
+    id: 8700418,
+    name: 'Mk Singh',
+    email: 'mk1793854347913@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8700416,
+    name: 'Mk Singh',
+    email: 'mk1793854040099@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8700391,
+    name: 'mohan Singh',
+    email: 'mk1793848033233@example.com',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8700388,
+    name: 'Mk Singh',
+    email: 'mk1793847790460@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8700386,
+    name: 'Mk Singh',
+    email: 'mk1793847492882@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8700384,
+    name: 'Mk Singh',
+    email: 'mk1793847190394@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8700382,
+    name: 'Mk Singh',
+    email: 'mk1793846187563@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8699442,
+    name: 'Mk Singh',
+    email: 'mk1793765924913@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8699359,
+    name: 'Mk Singh',
+    email: 'mk1793757927830@example.com',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8698921,
+    name: 'Ishaan Nair',
+    email: 'ishaan_nair_61421@chopra.example',
+    gender: 'male',
+    status: 'active'
+  }
+]
+200
