@@ -45,7 +45,7 @@ test("forgot password link  Exist test",async ({loginPage})=>{
     expect(isForgotpwdLinkavalible).toBe(true)
 })
 
-test("Login Test @sanity",async ({loginPage,homePage})=>{
+test("Login Test @sanity",async ({loginPage,homePage,page})=>{
 
   await loginPage.doLogin(process.env.USER_NAME!,process.env.PASSWORD!)
 

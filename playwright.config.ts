@@ -52,11 +52,11 @@ export default defineConfig({
     // {name:'setup',testMatch:/global\.setup\.ts/},
     {
       name: 'chromium',
-      // dependencies: ['setup'],
       use: { ...devices['Desktop Chrome'],
         // use prepared auth state
       //  storageState:'auth.user.json',
        },
+      //  dependencies: ['setup'],
     },
 
     // {
