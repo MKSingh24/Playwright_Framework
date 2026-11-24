@@ -1,0 +1,76 @@
+Base URL: https://gorest.co.in
+End Point: /public/v2/users
+Final URL: https://gorest.co.in/public/v2/users
+[
+  {
+    id: 8717590,
+    name: 'Aditya Menon',
+    email: 'aditya_menon_1405@verma.example',
+    gender: 'male',
+    status: 'inactive'
+  },
+  {
+    id: 8717589,
+    name: 'Tara Menon',
+    email: 'tara_menon_53886@agarwal.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8717588,
+    name: 'Kamala Nair',
+    email: 'kamala_nair_56211@desai.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8717584,
+    name: 'Anand Patel',
+    email: 'anand_patel_919@joshi.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8717583,
+    name: 'Sita Agarwal',
+    email: 'sita_agarwal_86115@menon.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8717582,
+    name: 'Diya Sharma',
+    email: 'diya_sharma_66526@agarwal.example',
+    gender: 'female',
+    status: 'active'
+  },
+  {
+    id: 8717580,
+    name: 'Suresh Nair',
+    email: 'suresh_nair_79967@kumar.example',
+    gender: 'male',
+    status: 'active'
+  },
+  {
+    id: 8717579,
+    name: 'Aadhya Mehta',
+    email: 'aadhya_mehta_86525@das.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8717578,
+    name: 'Kamala Patel',
+    email: 'kamala_patel_64852@bose.example',
+    gender: 'female',
+    status: 'inactive'
+  },
+  {
+    id: 8717577,
+    name: 'Ishaan Nair',
+    email: 'ishaan_nair_45417@naidu.example',
+    gender: 'male',
+    status: 'inactive'
+  }
+]
+200

@@ -1,0 +1,9 @@
+{
+  id: 8720012,
+  name: 'Mk Singh',
+  email: 'mk1795489413401@example.com',
+  gender: 'male',
+  status: 'active'
+}
+201
+User Id is : 8720012
